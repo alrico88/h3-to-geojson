@@ -21,7 +21,7 @@ npm install h3-to-geojson
 or
 
 ```bash
-pnpm i h3-to-geojson
+pnpm add h3-to-geojson
 ```
 
 ## Usage
@@ -71,6 +71,10 @@ const geojsonPolygon = {
 const h3Cells = getH3InsideGeoJSON(geojsonPolygon, resolution);
 console.log('H3 Cells inside the GeoJSON Polygon:', h3Cells);
 ```
+
+## Documentation
+
+See [DOCS](./docs/README.md)
 
 ## License
 

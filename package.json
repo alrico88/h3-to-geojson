@@ -1,7 +1,7 @@
 {
-  "name": "ts-package-template",
+  "name": "h3-to-geojson",
   "version": "0.0.1",
-  "description": "DESCRIPTION",
+  "description": "A lightweight utility library for converting H3 cells to GeoJSON features and geometries, along with additional tools for working with the H3 geoindexing system.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alrico88/REPO"
+    "url": "https://github.com/alrico88/h3-to-geojson"
   },
   "sideEffects": false,
   "devDependencies": {
@@ -40,7 +40,11 @@
     "vitest": "^2.1.8"
   },
   "keywords": [
-    "KEYWORDS"
+    "h3",
+    "cell",
+    "geojson",
+    "h3 to geojson",
+    "cell"
   ],
   "scripts": {
     "dev": "pnpm run build -- --watch src",
@@ -48,7 +52,7 @@
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "lint": "eslint --cache --fix src",
-    "docs": "typedoc src/index.ts --readme README.md --gitRevision master --plugin typedoc-plugin-markdown",
+    "docs": "typedoc src/index.ts --readme none --gitRevision master --plugin typedoc-plugin-markdown",
     "prepublish": "pnpm run build",
     "coveralls": "vitest run --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
