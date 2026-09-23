@@ -1,6 +1,7 @@
 {
   "name": "h3-to-geojson",
   "version": "0.1.0",
+  "packageManager": "pnpm@12.6.0",
   "description": "A lightweight utility library for converting H3 cells to GeoJSON features and geometries, along with additional tools for working with the H3 geoindexing system.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -25,6 +26,7 @@
     "@types/geojson": "^7946.0.14",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
+    "@vitest/coverage-v8": "^5.0.1",
     "c8": "^10.1.2",
     "coveralls": "^3.1.1",
     "eslint": "^9.16.0",
@@ -37,7 +39,7 @@
     "typedoc": "^0.27.3",
     "typedoc-plugin-markdown": "^4.3.1",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "vitest": "^5.0.1"
   },
   "keywords": [
     "h3",
